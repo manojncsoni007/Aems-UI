@@ -1,0 +1,45 @@
+@import url(../style.css);
+* {
+    box-sizing: border-box;
+}
+
+.docs-container {
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+}
+
+.docs-sidebar {
+    position: fixed;
+    top: 4.2rem;
+    bottom: 0;
+    width: 14rem;
+    padding: 1rem;
+    border-right: 1px solid gray;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.docs-sidebar-title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.docs-sidebar-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.docs-sidebar-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 0.2rem;
+}
+
+.docs-component-container {
+    padding: 1rem;
+}

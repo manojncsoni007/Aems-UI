@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(../avatar/avatar.css);
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.badge-container {
+    padding: 2rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-on-icon {
+    position: relative;
+    width: fit-content;
+}
+
+.badge {
+    position: absolute;
+    top: -15%;
+    right: -25%;
+    color: white;
+    background-color: crimson;
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-badge-sm {
+    font-size: 1.5rem;
+}
+
+.badge-sm {
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.icon-badge-md {
+    font-size: 1.75rem;
+}
+
+.badge-md {
+    height: 1.75rem;
+    width: 1.75rem;
+    font-size: 1rem;
+}
+
+.icon-badge-lg {
+    font-size: 2rem;
+}
+
+.badge-lg {
+    height: 2rem;
+    width: 2rem;
+    font-size: 1rem;
+}
+
+.badge-on-avatar {
+    position: relative;
+    width: fit-content;
+}
+
+.avatar-badge {
+    position: absolute;
+    padding: 0.5rem;
+    border-radius: 50%;
+    bottom: 9%;
+    right: 0;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
