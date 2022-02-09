@@ -1,14 +1,10 @@
 @import url(../style.css);
-* {
-    box-sizing: border-box;
-}
-
 .docs-container {
     display: grid;
     grid-template-columns: 14rem 1fr;
 }
 
-.docs-sidebar {
+.docs-sidebar .sidebar {
     position: fixed;
     top: 4.2rem;
     bottom: 0;
@@ -19,12 +15,12 @@
     overflow-y: auto;
 }
 
-.docs-sidebar-title {
+.docs-sidebar .sidebar-title {
     font-size: 1.2rem;
     text-align: center;
 }
 
-.docs-sidebar-link-container {
+.docs-sidebar .sidebar-link {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -40,6 +36,6 @@
     padding: 0.2rem;
 }
 
-.docs-component-container {
+.docs-component {
     padding: 1rem;
 }
