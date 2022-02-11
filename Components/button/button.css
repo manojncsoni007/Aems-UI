@@ -1,0 +1,73 @@
+    @import url(../../style.css);
+    .btn {
+        padding: 1rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 1.2rem;
+        margin: 1rem;
+    }
+    
+    .btn-outline-primary {
+        color: var(--blue);
+        border: 2px solid var(--blue);
+        background: transparent;
+    }
+    
+    .btn-outline-success {
+        color: var(--green);
+        border: 2px solid var(--green);
+        background: transparent;
+    }
+    
+    .btn-outline-info {
+        color: var(--lightblue);
+        border: 2px solid var(--lightblue);
+        background: transparent;
+    }
+    
+    .btn-outline-error {
+        color: var(--red);
+        border: 2px solid var(--red);
+        background: transparent;
+    }
+    
+    .btn-outline-warning {
+        color: var(--yellow);
+        border: 2px solid var(--yellow);
+        background: transparent;
+    }
+    
+    .floating-btn {
+        background: transparent;
+        background-color: var(--red);
+        color: var(--white);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .floating-btn:hover {
+        background-color: var(--accentRed);
+    }
+    
+    .float-btn-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    .icon-btn:hover {
+        transform: scale(1.2);
+    }
+    
+    .link-btn {
+        background-color: var(--red);
+        padding: 1rem;
+        margin: 1rem;
+    }
+    
+    .link-btn a {
+        color: var(--white);
+    }
