@@ -1,0 +1,162 @@
+@import url(../../basic.css);
+@import url(../badge/badge.css);
+body {
+    margin: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.1rem;
+    margin: 1rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    padding: 1rem 1rem;
+    font-size: small;
+}
+
+.card-content {
+    padding: 0 1rem 1rem 1rem;
+    font-size: small;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.card-footer {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.card-footer button {
+    background: transparent;
+    padding: 0.5rem;
+    border: none;
+    text-decoration: none;
+}
+
+.card-footer:hover {
+    background-color: var(--lightblue);
+}
+
+.card-footer a {
+    text-decoration: none;
+    font-size: medium;
+    color: var(--white);
+}
+
+.icon i {
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+}
+
+.card-badge {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    color: var(--blue);
+    cursor: pointer;
+    position: relative;
+    top: 3.3rem;
+    right: -16.7rem;
+    margin-top: -3rem;
+}
+
+.card-badge:hover {
+    transform: scale(1.04);
+}
+
+.icon i:hover {
+    background-color: lightgray;
+}
+
+.card2 .card-header {
+    order: -1;
+}
+
+.card1 .card-img {
+    border-radius: 1rem;
+}
+
+.card2 .card-header {
+    padding: 1rem;
+}
+
+.card2 .card-content {
+    padding-top: 1rem;
+}
+
+#radius {
+    border-radius: 0.1rem;
+}
+
+.card4 .card-footer .icon {
+    margin-left: auto;
+}
+
+.horizontal-card .card-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.horizontal-card {
+    display: flex;
+    background-color: white;
+    margin: 1rem;
+    max-width: 40rem;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.horizontal-card .card-img {
+    width: 50%;
+}
+
+.horizontal-card .card-header {
+    width: 50%;
+}
+
+.horizontal-card .card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    background-color: var(--blue);
+    color: var(--white);
+    position: relative;
+    top: -19rem;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.card-overlay {
+    opacity: 70%;
+}
