@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+body {
+    font-size: 62.5%;
+}
+
 :root {
     --blue: #14213D;
     --lightblue: #2E86AB;
@@ -13,6 +17,7 @@
     --accentRed: #df2727;
     --yellow: #FCA311;
     --gray: #808080;
+    --dark-gray: #858282;
     --text-gray: #333333;
     --white: #ffffff;
     --crimson: #dc143c;
