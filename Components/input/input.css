@@ -1,0 +1,30 @@
+@import url(../../basic.css);
+.error-outline::placeholder {
+    color: red;
+    opacity: 1;
+    /* Firefox */
+}
+
+.input {
+    padding: 0.5rem;
+    width: 20rem;
+}
+
+.label {
+    display: block;
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.text-red {
+    color: red;
+}
+
+.error-outline {
+    border-color: red;
+}
+
+.error-outline ::placeholder {
+    color: red;
+}
