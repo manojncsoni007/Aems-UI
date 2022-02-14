@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--lightRed);
+    background-color: var(--lightblue);
     padding: 1rem 3rem;
     font-weight: 500;
     align-items: center;
@@ -23,6 +23,8 @@
 
 .navbar .navbar-menu {
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-menu a {
@@ -73,25 +75,25 @@
 }
 
 .getstarted-btn {
-    background-color: var(--lightRed);
+    background-color: var(--lightblue);
     outline: none;
     border: none;
     color: white;
 }
 
 .getstarted-btn:hover {
-    background-color: var(--crimson);
+    background-color: var(--lightblue);
 }
 
 .github-btn {
     background-color: var(--white);
-    color: var(--lightRed);
-    border: 0.2px solid var(--lightRed);
+    color: var(--lightblue);
+    border: 0.2px solid var(--lightblue);
     outline: none;
 }
 
 .github-btn:hover {
-    background-color: var(--lightRed);
+    background-color: var(--lightblue);
     color: white;
     border: none;
 }
