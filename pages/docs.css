@@ -85,3 +85,12 @@ section {
     /* max-width: 95rem; */
     margin: 1rem 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .docs-sidebar {
+        display: none;
+    }
+    .docs-component {
+        width: 100%;
+    }
+}

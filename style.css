@@ -28,7 +28,7 @@
 }
 
 .navbar-menu a {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 .navbar a {
@@ -37,7 +37,7 @@
 }
 
 .mainpage-container {
-    margin: 10% auto;
+    margin: 5% auto;
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
