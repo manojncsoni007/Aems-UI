@@ -1,33 +1,33 @@
 @import url(../../basic.css);
 h1 {
-    font-size: 4rem;
+    font-size: var(--xxl-size);
+    line-height: var(--xxxl-size);
     font-weight: 700;
-    line-height: 5rem;
 }
 
 h2 {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+    font-size: var(--xl-size);
+    line-height: var(--xxl-size);
 }
 
 h3 {
-    font-size: 3rem;
-    line-height: 4rem;
+    font-size: var(--lg-size);
+    line-height: var(--xl-size);
 }
 
 h4 {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
+    font-size: var(--md-size);
+    line-height: var(--lg-size);
 }
 
 h5 {
-    font-size: 2rem;
-    line-height: 3rem;
+    font-size: var(--sm-size);
+    line-height: var(--md-size);
 }
 
 h6 {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: var(--xs-size);
+    line-height: var(--sm-size);
 }
 
 .text-right {

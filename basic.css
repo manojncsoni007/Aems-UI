@@ -5,11 +5,8 @@
     margin: 0;
 }
 
-body {
-    font-size: 62.5%;
-}
-
 :root {
+    /* colors */
     --blue: #14213D;
     --lightblue: #2E86AB;
     --green: #008000;
@@ -24,11 +21,18 @@ body {
     --crimson: #dc143c;
     --lightRed: #f44336;
     --nav: #488A99;
+    /* font size */
+    --xxxl-size: 64px;
+    --xxl-size: 48px;
+    --xl-size: 40px;
+    --lg-size: 32px;
+    --md-size: 24px;
+    --sm-size: 16px;
+    --xs-size: 8px;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 62.5%;
 }
 
 .white-text {
