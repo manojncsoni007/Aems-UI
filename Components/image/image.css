@@ -6,13 +6,13 @@
 
 .rounded {
     border-radius: 50%;
-    height: 25rem;
-    width: 25rem;
+    height: 20rem;
+    width: 20rem;
 }
 
 .square {
-    height: 25rem;
-    width: 25rem;
+    height: 20rem;
+    width: 20rem;
 }
 
 .container-250px {

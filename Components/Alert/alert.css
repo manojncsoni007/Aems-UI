@@ -3,14 +3,8 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin: 1rem;
     padding: 0.8rem;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
-}
-
-.alert-container {
-    width: 50%;
-    margin: 3rem auto;
 }

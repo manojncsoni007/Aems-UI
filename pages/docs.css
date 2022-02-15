@@ -1,5 +1,5 @@
 @import url(../style.css);
-@import url(../basic.css);
+@import url(../aems.css);
 .docs-container {
     display: grid;
     grid-template-columns: 16rem 1fr;
@@ -44,6 +44,44 @@
     padding: 0.2rem;
 }
 
+h5 {
+    margin-bottom: 0.5rem;
+}
+
 .docs-component {
-    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0.8rem;
+    margin-right: 1rem;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+.component-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem;
+    border: 1px solid var(--light-gray);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.component-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid var(--light-gray);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.snippet,
+.snippet iframe {
+    width: 90%;
+    /* max-width: 95rem; */
+    margin: 1rem 0;
 }

@@ -1,24 +1,4 @@
 @import url(../../basic.css);
-.container {
-    width: 90%;
-    padding: 1rem;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.avatar-container {
-    display: flex;
-    width: 50%;
-    margin: 1rem auto;
-    align-items: center;
-    justify-content: space-around;
-    gap: 2rem;
-    background-color: #f7f7f7;
-    padding: 1rem;
-}
-
 .avatar-round {
     border-radius: 50%;
 }
