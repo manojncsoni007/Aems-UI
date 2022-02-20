@@ -5,13 +5,16 @@
     width: fit-content;
 }
 
+.badge-container {
+    padding: 3rem;
+}
+
 .badge {
     position: absolute;
-    top: -15%;
-    right: -25%;
+    top: -11px;
+    right: -1rem;
     color: white;
     background-color: crimson;
-    padding: 0.4rem;
     border-radius: 50%;
 }
 
