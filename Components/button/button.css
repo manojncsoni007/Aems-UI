@@ -8,31 +8,31 @@
         margin: 1rem;
     }
     
-    .btn-outline-primary {
+    .outline-primary {
         color: var(--blue);
         border: 2px solid var(--blue);
         background: transparent;
     }
     
-    .btn-outline-success {
+    .outline-success {
         color: var(--green);
         border: 2px solid var(--green);
         background: transparent;
     }
     
-    .btn-outline-info {
+    .outline-info {
         color: var(--lightblue);
         border: 2px solid var(--lightblue);
         background: transparent;
     }
     
-    .btn-outline-error {
+    .outline-error {
         color: var(--red);
         border: 2px solid var(--red);
         background: transparent;
     }
     
-    .btn-outline-warning {
+    .outline-warning {
         color: var(--yellow);
         border: 2px solid var(--yellow);
         background: transparent;
