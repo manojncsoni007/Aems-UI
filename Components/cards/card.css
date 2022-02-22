@@ -13,6 +13,7 @@ body {
 }
 
 .card {
+    position: relative;
     background-color: white;
     border-radius: 0.1rem;
     margin: 1rem;
@@ -151,8 +152,9 @@ img {
 .overlay {
     background-color: var(--blue);
     color: var(--white);
-    position: relative;
-    top: -19rem;
+    position: absolute;
+    width: 100%;
+    top: 40%;
     padding: 1rem;
     font-size: 1rem;
 }
