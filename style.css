@@ -92,8 +92,8 @@
     outline: none;
 }
 
-.github-btn:hover {
+/* .github-btn:hover {
     background-color: var(--lightblue);
-    color: white;
+    color: var(--lightblue);
     border: none;
-}
+} */
