@@ -77,19 +77,32 @@ img {
 }
 
 .card-badge {
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: var(--white);
+    background-color: var(--lightblue);
+    position: absolute;
+    top: 0.7rem;
+    left: 0.7rem;
+    margin-top:0rem;
+}
+
+.card-dismiss {
     width: 2.4rem;
     height: 2.4rem;
     border-radius: 50%;
     background-color: var(--white);
     color: var(--blue);
     cursor: pointer;
-    position: relative;
-    top: 3.3rem;
-    right: -16.7rem;
-    margin-top: -3rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    
 }
 
-.card-badge:hover {
+.card-dismiss:hover {
     transform: scale(1.04);
 }
 
