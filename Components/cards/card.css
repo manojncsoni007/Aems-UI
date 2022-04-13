@@ -1,16 +1,6 @@
 @import url(../../basic.css);
 @import url(../badge/badge.css);
-body {
-    margin: 2rem;
-    box-sizing: border-box;
-    margin: 0;
-}
 
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
 .card {
     position: relative;
@@ -45,30 +35,27 @@ img {
 }
 
 .card-footer {
-    padding: 0.5rem 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--blue);
     color: var(--white);
 }
 
 .card-footer button {
-    background: transparent;
-    padding: 0.5rem;
+    background-color: var(--blue);
+    padding: 1rem;
+    margin: 0.8rem 1rem ;
+    border-radius: 7px;
+    width: 90%;
     border: none;
-    text-decoration: none;
-}
-
-.card-footer:hover {
-    background-color: var(--lightblue);
-}
-
-.card-footer a {
     text-decoration: none;
     font-size: medium;
     color: var(--white);
+}
+
+.card-footer button:hover {
+    background-color: var(--lightblue);
 }
 
 .icon i {
