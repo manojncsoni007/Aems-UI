@@ -76,7 +76,7 @@ img {
     margin-top:0rem;
 }
 
-.card-dismiss {
+.card-icon {
     width: 2.4rem;
     height: 2.4rem;
     border-radius: 50%;
@@ -89,7 +89,7 @@ img {
     
 }
 
-.card-dismiss:hover {
+.card-icon:hover {
     transform: scale(1.04);
 }
 
