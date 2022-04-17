@@ -1,0 +1,11 @@
+.toast{
+    padding: 0.8rem;
+    border-radius: 5px;
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+}
+
+.toast i{
+    cursor: pointer;
+}
