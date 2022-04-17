@@ -1,11 +1,10 @@
     @import url(../../basic.css);
     .btn {
-        padding: 1rem;
+        padding: 0.5rem;
         cursor: pointer;
-        border-radius: 0.5rem;
+        border-radius: 0.2rem;
         border: none;
-        font-size: 1.2rem;
-        margin: 1rem;
+        font-size: 1rem;
     }
     
     .outline-primary {
