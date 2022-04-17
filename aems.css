@@ -10,4 +10,5 @@
 @import url(./Components/navigation/navigation.css);
 @import url(./Components/text-utilities/text.css);
 @import url(./Components/Modal/modal.css);
-@import url(./Components/Rating/rating.css)
+@import url(./Components/Rating/rating.css);
+@import url(./Components/toast/toast.css);
