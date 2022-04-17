@@ -1,0 +1,9 @@
+.rating{
+    color: gray
+}
+.rated{
+    color: goldenrod
+}
+.rating:hover{
+    color: goldenrod;
+}
